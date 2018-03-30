@@ -1,6 +1,6 @@
 var iPhone6S = new Phone ("Aplle", 2250, "silver", 2017);
-var SamsungS6 = new Phone ("Samsung", 1800, "black", 2015);
-var OnePlus = new Phone ("Nokia", 1200, "white", 2016);
+var samsungS6 = new Phone ("Samsung", 1800, "black", 2015);
+var onePlus = new Phone ("Nokia", 1200, "white", 2016);
 
 function Phone(brand, price, color, year) {
 	this.brand = brand;
@@ -14,5 +14,5 @@ Phone.prototype.printInfo = function() {
 }
 
 iPhone6S.printInfo();
-SamsungS6.printInfo();
-OnePlus.printInfo();
+samsungS6.printInfo();
+onePlus.printInfo();
